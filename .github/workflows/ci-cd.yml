@@ -69,4 +69,4 @@ jobs:
         run: |
           export PATH=$PATH:/usr/bin:/usr/local/bin
           pm2 stop app || true
-          pm2 start index.js --name app
+          pm2 start src/server.js --name app
